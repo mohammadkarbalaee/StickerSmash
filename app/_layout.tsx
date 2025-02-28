@@ -9,6 +9,12 @@ export default function RootLayout() {
           headerTitle: "Sticker Smash"
         }}
       />
+      <Stack.Screen
+        name="about"
+        options={{
+          headerTitle: "About"
+        }}
+      />
     </Stack>
   );
 }
