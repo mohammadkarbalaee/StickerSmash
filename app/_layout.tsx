@@ -4,7 +4,7 @@ import { StatusBar } from "expo-status-bar";
 export default function RootLayout() {
   return (
     <>
-      <StatusBar style="dark" />
+      <StatusBar style="light" />
       <Stack>
         <Stack.Screen
           name="(tabs)"
@@ -12,6 +12,7 @@ export default function RootLayout() {
             headerShown: false
           }}
         />
+        <Stack.Screen name="+not-found" />
       </Stack>
     </>
   );

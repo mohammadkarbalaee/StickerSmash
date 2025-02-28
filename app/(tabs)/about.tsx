@@ -3,10 +3,20 @@ import React from "react";
 
 export default function about() {
   return (
-    <View>
-      <Text>about</Text>
+    <View style={styles.container}>
+      <Text style={styles.text}>About screen</Text>
     </View>
   );
 }
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#25292e",
+    justifyContent: "center",
+    alignItems: "center"
+  },
+  text: {
+    color: "#fff"
+  }
+});
