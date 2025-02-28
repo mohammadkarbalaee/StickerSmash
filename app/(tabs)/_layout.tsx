@@ -13,6 +13,12 @@ export default function RootLayout() {
         headerTintColor: "#fff",
         tabBarStyle: {
           backgroundColor: "#25292e"
+        },
+        tabBarItemStyle: {
+          paddingVertical: 10
+        },
+        tabBarLabelStyle: {
+          fontWeight: "bold"
         }
       }}
     >
